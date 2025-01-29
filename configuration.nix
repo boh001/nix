@@ -82,7 +82,6 @@
     ];
     masApps = {
       CleanMyMac = 1339170533;
-      RunCat = 1429033973;
       Xcode = 497799835;
       KaKaoTalk = 869223134;
       Magnet = 441258766;
