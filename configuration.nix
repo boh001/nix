@@ -41,14 +41,15 @@
 	      "/Applications/Google Chrome.app"
 	      "/Applications/KaKaoTalk.app"
 	      "/Applications/ChatGPT.app"
-	      "/Applications/Notion.app"
-	      "/Applications/Notion Calendar.app"
 	      "/Applications/Slack.app"
 	      "/Applications/Alacritty.app"
-	      "/Applications/Cursor.app"
+	      "/Applications/Visual Studio Code.app"
 	      "/Applications/GitKraken.app"
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
+        "/Applications/CleanMyMac.app"
+	      "/Applications/Notion.app"
+	      "/Applications/Notion Calendar.app"
 	    ]; 
     };
   };
@@ -62,6 +63,8 @@
       "awscli"
       "fzf"
       "bat"
+      "deno"
+      "fastlane"
     ];
     casks = [
       "google-chrome"
@@ -69,17 +72,20 @@
       "notion"
       "notion-calendar"
       "gitkraken"
-      "cursor"
+      "visual-studio-code"
       "temurin@17"
       "android-studio"
       "slack"
       "alacritty"
       "aldente"
+      "docker"
     ];
     masApps = {
+      CleanMyMac = 1339170533;
       RunCat = 1429033973;
       Xcode = 497799835;
       KaKaoTalk = 869223134;
+      Magnet = 441258766;
     };
   };
 }
