@@ -47,7 +47,7 @@
 	      "/Applications/GitKraken.app"
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
-        "/Applications/CleanMyMac.app"
+        "/Applications/CleanMyMac_5_MAS.app"
 	      "/Applications/Notion.app"
 	      "/Applications/Notion Calendar.app"
 	    ]; 
