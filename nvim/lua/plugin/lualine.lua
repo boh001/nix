@@ -2,7 +2,7 @@ return {
   'nvim-lualine/lualine.nvim',
   priority = 800,
   config = function()
-    local icons = require('local.icons')
+    local icon = require('config.icon')
 
     local section_b_cond = vim
       .iter({ 95, 115 })
