@@ -67,6 +67,8 @@
       "deno"
       "fastlane"
       "neovim"
+      "ripgrep",
+      "trash-cli"
     ];
     casks = [
       "google-chrome"

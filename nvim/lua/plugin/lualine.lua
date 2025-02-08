@@ -87,7 +87,7 @@ return {
         },
       },
       extensions = {},
-      theme = require('local.theme').gen_lualine_theme(),
+      theme = "dracula",
     })
   end,
 }
