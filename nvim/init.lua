@@ -8,6 +8,6 @@ if vim.fn.has("nvim-0.9") == 0 then
 end
 
 -- config
-require("config.keymaps")
-require("config.options")
+require("config.keymap")
+require("config.option")
 require("config.lazy")
