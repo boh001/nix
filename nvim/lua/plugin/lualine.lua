@@ -56,7 +56,7 @@ return {
             separator = { left = '', right = '' },
             padding = 0,
             color = function()
-              local mode = require('local.theme').get_mode()
+              local mode = require('config.util').get_mode()
 
               return 'lualine_a_' .. mode
             end,

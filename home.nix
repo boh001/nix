@@ -59,6 +59,9 @@
       export ANDROID_HOME=$HOME/Library/Android/sdk
       export PATH=$PATH:$ANDROID_HOME/emulator
       export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+      # trash
+      export PATH="/opt/homebrew/opt/trash-cli/bin:$PATH"
     '';
     shellAliases = {
       darwin-rebuild-main = "darwin-rebuild switch --flake ~/.config/nix#main";
