@@ -3,14 +3,13 @@
 {
   home.stateVersion = "25.05";
 
-  programs.vim = {
+  programs.neovim = {
     enable = true;
-    settings = {
-      number = true;
-      tabstop = 2;
-      shiftwidth = 2;
-      expandtab = true;
-    };
+    defaultEditor = true;
+  };
+
+  home.file.".config/nvim" = {
+    source = ./nvim;
   };
 
   programs.git  = {
@@ -46,7 +45,7 @@
     };
     initExtra = ''
       # git
-      export GIT_EDITOR="vim"
+      export GIT_EDITOR="nvim"
 
       # fnm
       eval "$(fnm env --use-on-cd --shell zsh)"

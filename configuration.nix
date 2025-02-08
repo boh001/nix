@@ -34,6 +34,7 @@
       FXPreferredViewStyle = "icnv";
     };
     dock = {
+      orientation = "left";
       autohide = true;
       persistent-apps = [
 	      "/System/Applications/Launchpad.app"
@@ -47,7 +48,7 @@
 	      "/Applications/GitKraken.app"
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
-        "/Applications/CleanMyMac_5_MAS.app"
+              "/Applications/CleanMyMac_5_MAS.app"
 	      "/Applications/Notion.app"
 	      "/Applications/Notion Calendar.app"
 	    ]; 
@@ -65,6 +66,7 @@
       "bat"
       "deno"
       "fastlane"
+      "neovim"
     ];
     casks = [
       "google-chrome"
