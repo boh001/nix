@@ -8,8 +8,9 @@
     defaultEditor = true;
   };
 
-  home.file.".config/nvim" = {
+  xdg.configFile.nvim = {
     source = ./nvim;
+    recursive = true;
   };
 
   programs.git  = {
