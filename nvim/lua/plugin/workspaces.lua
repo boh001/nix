@@ -8,11 +8,11 @@ return {
       workspaces = {
         {
           name = "nvim",
-          path = "~/.config/nvim",
+          path = "~/.config/nix/nvim",
         },
         {
-          name = "projects",
-          path = "~/projects",
+          name = "project",
+          path = "~/project",
         },
       },
       sort = false,

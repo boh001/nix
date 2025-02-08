@@ -1,12 +1,12 @@
 local options = {
   number = true,
   clipboard = "unnamed",
-  shiftwidth = 2, -- Change a number of space characters inserted for indentation
+  shiftwidth = 2,
   expandtab = true,
   tabstop = 2,
   smartcase = true,
   smartindent = true,
-  showtabline = 2, -- Always show tabs
+  showtabline = 0,
   swapfile = false,
   wrap = false,
   encoding = "utf-8",
