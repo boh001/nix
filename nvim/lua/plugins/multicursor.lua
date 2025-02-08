@@ -1,4 +1,4 @@
-{
+return {
     "jake-stewart/multicursor.nvim",
     config = function()
         local mc = require("multicursor-nvim")

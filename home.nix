@@ -98,40 +98,32 @@
 
       colors = {
         primary = {
-          background = "0x101010";
-          foreground = "0xf5f5f5";
+          background = "0x282a36"; # 배경 색상
+          foreground = "0xf8f8f2"; # 전경 색상
         };
-
         cursor = {
-          text = "0x101010";
-          cursor = "0x3ecf8e";
+          text = "0x282a36";
+          cursor = "0xf8f8f2";
         };
-
-        selection = {
-          text = "0xf5f5f5";
-          background = "0x232323";
-        };
-
         normal = {
-          black = "0x101010";
-          red = "0xff6060";
-          green = "0x3ecf8e";
-          yellow = "0x2596be";
-          blue = "0xa0a0a0";
-          magenta = "0xb6a6f7";
-          cyan = "0x3ecf8e";
-          white = "0xf5f5f5";
+          black = "0x21222c";     # Dracula black
+          red = "0xf07178";       # Dracula red
+          green = "0x50fa7b";     # Dracula green
+          yellow = "0xf1fa8c";    # Dracula yellow
+          blue = "0xbd93f9";      # Dracula blue
+          magenta = "0xff79c6";   # Dracula magenta
+          cyan = "0x8be9fd";      # Dracula cyan
+          white = "0xf8f8f2";     # Dracula white
         };
-
         bright = {
-          black = "0x232323";
-          red = "0xffadad";
-          green = "0x3ecf8e";
-          yellow = "0x2596be";
-          blue = "0x505050";
-          magenta = "0xb6a6f7";
-          cyan = "0x3ecf8e";
-          white = "0xf5f5f5";
+          black = "0x6272a4";     # Dracula bright black
+          red = "0xff5555";       # Dracula bright red
+          green = "0x50fa7b";     # Dracula bright green
+          yellow = "0xf1fa8c";    # Dracula bright yellow
+          blue = "0xbd93f9";      # Dracula bright blue
+          magenta = "0xff79c6";   # Dracula bright magenta
+          cyan = "0x8be9fd";      # Dracula bright cyan
+          white = "0xffffff";     # Dracula bright white
         };
       };
     };
