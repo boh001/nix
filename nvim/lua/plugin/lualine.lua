@@ -3,6 +3,7 @@ return {
   priority = 800,
   config = function()
     local icon = require('config.icon')
+    local mode = require('config.util').get_mode()
 
     local section_b_cond = vim
       .iter({ 95, 115 })
@@ -56,7 +57,6 @@ return {
             separator = { left = '', right = '' },
             padding = 0,
             color = function()
-              local mode = require('config.util').get_mode()
 
               return 'lualine_a_' .. mode
             end,
