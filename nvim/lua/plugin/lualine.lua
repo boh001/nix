@@ -29,19 +29,19 @@ return {
         lualine_a = {
           {
             'mode',
-            icon = icons.neovim,
+            icon = icon.neovim,
             separator = { left = '', right = '' },
             padding = { left = 1, right = 0 },
           },
         },
         lualine_b = {
-          { 'branch', icon = icons.git.branch, cond = section_b_cond[1] },
+          { 'branch', icon = icon.git.branch, cond = section_b_cond[1] },
           {
             'diff',
             symbols = {
-              added = icons.git.diff.added .. ' ',
-              modified = icons.git.diff.modified .. ' ',
-              removed = icons.git.diff.removed .. ' ',
+              added = icon.git.diff.added .. ' ',
+              modified = icon.git.diff.modified .. ' ',
+              removed = icon.git.diff.removed .. ' ',
             },
             padding = { left = 0, right = 1 },
             cond = section_b_cond[2],
@@ -51,7 +51,7 @@ return {
           { '%=', padding = 0 },
           {
             'datetime',
-            icon = icons.clock,
+            icon = icon.clock,
             style = '%H:%M ',
             separator = { left = '', right = '' },
             padding = 0,
@@ -74,7 +74,7 @@ return {
             function()
               return vim.fn.fnamemodify(vim.fn.getcwd(), ':t')
             end,
-            icon = { icons.directory, color = 'Directory' },
+            icon = { icon.directory, color = 'Directory' },
             cond = section_b_cond[2],
           },
         },
