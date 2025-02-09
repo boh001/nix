@@ -8,9 +8,13 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+    rust-overlay = {
+      url = "github:oxalica/rust-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, home-manager, ... }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, home-manager, rust-overlay, ... }:
   {
     darwinConfigurations.main = nix-darwin.lib.darwinSystem {
       modules = [
@@ -29,6 +33,10 @@
             user = "sanghyeon";
           };
         }
+        ({ pkgs, ... }: {
+            nixpkgs.overlays = [ rust-overlay.overlays.default ];
+            environment.systemPackages = [ pkgs.rust-bin.stable.latest.default ];
+        })
       ];
     };
   };
