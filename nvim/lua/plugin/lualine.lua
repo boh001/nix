@@ -57,7 +57,6 @@ return {
             separator = { left = '', right = '' },
             padding = 0,
             color = function()
-
               return 'lualine_a_' .. mode
             end,
           },
