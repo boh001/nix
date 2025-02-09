@@ -20,6 +20,7 @@ return {
   },
   {
     "saghen/blink.cmp",
+    dev = false,
     opts = {
       sources = {
         default = { "lazydev", "lsp", "path", "snippets", "buffer" },
