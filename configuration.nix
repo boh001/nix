@@ -25,7 +25,7 @@
 
   fonts.packages = [
 	  pkgs.nerd-fonts.jetbrains-mono
-      ];
+  ];
 
   system.defaults = {
     finder = {
@@ -44,13 +44,12 @@
 	      "/Applications/ChatGPT.app"
 	      "/Applications/Slack.app"
 	      "/Applications/Alacritty.app"
-	      "/Applications/Visual Studio Code.app"
+	      "/Applications/Cursor.app"
 	      "/Applications/GitKraken.app"
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
         "/Applications/CleanMyMac_5_MAS.app"
 	      "/Applications/Notion.app"
-	      "/Applications/Notion Calendar.app"
 	    ]; 
     };
   };
@@ -61,28 +60,19 @@
       "mas"
       "fnm"
       "rbenv"
-      "awscli"
-      "fzf"
-      "bat"
-      "deno"
-      "fastlane"
-      "neovim"
-      "ripgrep"
-      "trash-cli"
     ];
     casks = [
       "google-chrome"
       "chatgpt"
       "notion"
-      "notion-calendar"
       "gitkraken"
-      "visual-studio-code"
+      "cursor"
       "temurin@17"
       "android-studio"
-      "slack"
       "alacritty"
       "aldente"
       "docker"
+      "raycast"
     ];
     masApps = {
       CleanMyMac = 1339170533;

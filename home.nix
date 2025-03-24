@@ -3,16 +3,6 @@
 {
   home.stateVersion = "25.05";
 
-  programs.neovim = {
-    enable = true;
-    defaultEditor = true;
-  };
-
-  xdg.configFile.nvim = {
-    source = ./nvim;
-    recursive = true;
-  };
-
   programs.git  = {
     enable = true;
     userName = "sanghyeon.kim";
@@ -46,7 +36,7 @@
     };
     initExtra = ''
       # git
-      export GIT_EDITOR="nvim"
+      export GIT_EDITOR="vim"
 
       # fnm
       eval "$(fnm env --use-on-cd --shell zsh)"
@@ -59,9 +49,6 @@
       export ANDROID_HOME=$HOME/Library/Android/sdk
       export PATH=$PATH:$ANDROID_HOME/emulator
       export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-      # trash
-      export PATH="/opt/homebrew/opt/trash-cli/bin:$PATH"
     '';
     shellAliases = {
       darwin-rebuild-main = "darwin-rebuild switch --flake ~/.config/nix#main";
