@@ -39,6 +39,7 @@
       persistent-apps = [
 	      "/System/Applications/Launchpad.app"
 	      "/System/Applications/System Settings.app"
+              "/Applications/Raycast.app"
 	      "/Applications/Google Chrome.app"
 	      "/Applications/KaKaoTalk.app"
 	      "/Applications/ChatGPT.app"
@@ -48,7 +49,7 @@
 	      "/Applications/GitKraken.app"
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
-        "/Applications/CleanMyMac_5_MAS.app"
+              "/Applications/CleanMyMac_5_MAS.app"
 	      "/Applications/Notion.app"
 	    ]; 
     };

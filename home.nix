@@ -10,6 +10,7 @@
     extraConfig = {
       init = { defaultBranch = "main"; };
       push = { autoSetupRemote = true; };
+      core.editor = "vim";
     };
   };
 
@@ -35,9 +36,6 @@
       ];
     };
     initExtra = ''
-      # git
-      export GIT_EDITOR="vim"
-
       # fnm
       eval "$(fnm env --use-on-cd --shell zsh)"
 
