@@ -50,7 +50,6 @@
 	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
               "/Applications/CleanMyMac_5_MAS.app"
-	      "/Applications/Notion.app"
 	    ]; 
     };
   };
@@ -74,6 +73,7 @@
       "aldente"
       "docker"
       "raycast"
+      "obsidian"
     ];
     masApps = {
       CleanMyMac = 1339170533;
