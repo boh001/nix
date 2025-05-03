@@ -39,15 +39,15 @@
       persistent-apps = [
 	      "/System/Applications/Launchpad.app"
 	      "/System/Applications/System Settings.app"
+	      "/System/Applications/Safari.app"
+              "/System/Applications/Mail.app"
               "/Applications/Raycast.app"
-	      "/Applications/Google Chrome.app"
 	      "/Applications/KaKaoTalk.app"
 	      "/Applications/ChatGPT.app"
 	      "/Applications/Slack.app"
 	      "/Applications/Alacritty.app"
 	      "/Applications/Cursor.app"
 	      "/Applications/GitKraken.app"
-	      "/Applications/Android Studio.app"
 	      "/Applications/Xcode.app"
               "/Applications/CleanMyMac_5_MAS.app"
 	    ]; 
@@ -59,27 +59,20 @@
     brews = [
       "mas"
       "fnm"
-      "rbenv"
     ];
     casks = [
-      "google-chrome"
       "chatgpt"
-      "notion"
       "gitkraken"
       "cursor"
-      "temurin@17"
-      "android-studio"
       "alacritty"
       "aldente"
       "docker"
       "raycast"
-      "obsidian"
     ];
     masApps = {
       CleanMyMac = 1339170533;
       Xcode = 497799835;
       KaKaoTalk = 869223134;
-      Magnet = 441258766;
     };
   };
 }
